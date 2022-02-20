@@ -1,0 +1,28 @@
+Functional Requirements:
+    - Allow user to add tasks in day across any time period
+    - Display what task is due at what time (keep track of time)
+    - Allow classification of tasks (with colour scheme)
+    - Split tasks into blocks of pomodoro time (work 25/5)
+    - Display work time/break time for each block with a count for focussed hours
+    - Display time left per break
+    - Total time spent on each task at end of the day
+    - Prompt breaks and work
+    - Keep track of hours worked on something over the week
+    - Allow setting of subgoals for each task with check box
+
+Software Requirements:
+    - Daily tasks should be stored in DB (Firebase) so users can go back and see what they did on a certain date
+    - Moveable/draggale widgets for each task
+    - Icons for each task
+
+List of Todos:
+    - Build timer - DONE
+    - Add start/stop button to timer - DONE
+    - Add count for number of pomodoros completed
+    - Build progress spinner/timer for time count down 
+    - Indexed DB for storage of project names.
+
+
+
+
+    - Create some sort of state storage
