@@ -42,6 +42,7 @@ function Pomodoro() {
     }
   }, [work]);
 
+  // set document title to time remaining
   useEffect(() => {
     document.title = `${timerMinutes}:${timerSeconds}`;
   }, [minutesLeft, secondsLeft]);
